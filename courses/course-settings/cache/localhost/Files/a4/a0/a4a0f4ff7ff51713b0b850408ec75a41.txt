@@ -1,0 +1,224 @@
+a:6:{s:1:"k";s:21:"course_settings_modal";s:1:"d";s:8301:"
+        
+        <div class="modal fade" id="editCourseInfoModal" data-bs-backdrop="static" 
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLiveLabel" 
+        style="display: none;" aria-hidden="true">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header" style="background-color:#1d007e;">
+
+                        <h5 align="center" class="modal-title text-light" id="exampleModalCenteredScrollableTitle">
+                        Edit course <i class="fa fa-edit"></i>
+                        </h5>
+                        <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p>Edt314</p>
+
+                        <form action="edit-course-code-controller.php" method="POST">
+
+                           <div class="input-group">
+
+                              <input class="form-control" type="text" name="courseCode" placeholder="Edit course code" 
+                              required style="height:40px;width:150px;">
+
+                              <input type="hidden" name="courseId" value=a77b4f0befc5bf2752419f1718507891>
+
+                              <button type="submit" class="input-group-text text-light" style="background-color:#1d007e;">
+                                Edit  <i class="fa fa-edit"></i>
+                              </button>
+
+                            </div>
+
+                        </form>
+
+                        <br>
+
+                        <p>Technology In Education</p>
+
+                        <form action="edit-course-title-controller.php" method="POST">
+
+                           <div class="input-group">
+
+                              <input class="form-control" type="text" name="courseTitle" placeholder="Edit course title" 
+                              required style="height:40px;width:150px;">
+
+                              <input type="hidden" name="courseId" value=a77b4f0befc5bf2752419f1718507891>
+
+                              <button type="submit" class="input-group-text text-light" style="background-color:#1d007e;">
+                                Edit  <i class="fa fa-edit"></i>
+                              </button>
+
+                            </div>
+
+                        </form>
+
+                        <br>
+
+                        <div class="accordion-item">
+
+                            <p class="accordion-header">
+                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                               data-bs-target="#aboutClass" aria-expanded="false" aria-controls="collapseTwo">
+                                    About course
+                                </button>
+                            </p>
+
+                            <div id="aboutClass" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+
+                            <div class="accordion-body">
+                                    This course enlightens students on the methods of applying technology to education
+                            </div>
+
+                            <!-- accordion body -->
+
+                            </div>
+                            
+
+                        </div>
+                        <!-- about accordion -->
+
+                        <br>
+
+                        <form action="edit-about-course-controller.php" method="POST">
+
+                           <div class="input-group">
+
+                              <textarea class="form-control" name="aboutCourse" placeholder="Edit about course"></textarea>
+
+                              <input type="hidden" name="courseId" value=a77b4f0befc5bf2752419f1718507891>
+
+                              <button type="submit" class="input-group-text text-light" style="background-color:#1d007e;">
+                                Edit  <i class="fa fa-edit"></i>
+                              </button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- edit course info modal -->
+
+        <div class="modal fade" id="clearEnrolledStudentsModal" data-bs-backdrop="static" 
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLiveLabel" 
+        style="display: none;" aria-hidden="true">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header" style="background-color:#1d007e;">
+
+                        <h5 align="center" class="modal-title text-light" id="exampleModalCenteredScrollableTitle">
+                        Clear enrolled students <i class="fa fa-users"></i>
+                        </h5>
+                        <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div align="center">
+
+                            <div class="alert alert-warning">
+
+                                By clearing your course enrolled students, <br>you are completely deleting the data of the students
+                                enrolled in your course
+
+                            </div>
+
+                            <form action="clear-enrolled-students-controller.php" method="POST">
+
+                                <input type="hidden" name="courseId" value=a77b4f0befc5bf2752419f1718507891>
+
+                                <button type="submit" value="send" class="btn btn-danger">
+
+                                    Clear <i class="fa fa-trash"></i>
+
+                                </button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- clear enrolled students modal -->
+
+
+        <div class="modal fade" id="deleteCourseModal" data-bs-backdrop="static" 
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLiveLabel" 
+        style="display: none;" aria-hidden="true">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header" style="background-color:#1d007e;">
+
+                        <h5 align="center" class="modal-title text-light" id="exampleModalCenteredScrollableTitle">
+                        Delete course <i class="fa fa-mortar-board"></i>
+                        </h5>
+                        <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div align="center">
+
+                            <div class="alert alert-warning">
+
+                                Make sure you have deleted all the classes in this course before deleting, to avert errors in
+                                the system.<br>
+                                And by deleting this course, you are completely deleting all the course data!!!
+
+                            </div>
+
+                            <form action="delete-course-controller.php" method="POST">
+
+                                <input type="hidden" name="courseId" value=a77b4f0befc5bf2752419f1718507891>
+
+                                <input type="hidden" name="incrementId" value=1>
+
+                                <button type="submit" value="send" class="btn btn-danger">
+
+                                    Delete course <i class="fa fa-trash"></i>
+
+                                </button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- delete course modal -->
+
+        
+        ";s:1:"g";a:0:{}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-05-17 05:03:49.961316";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"m";N;s:1:"c";N;}

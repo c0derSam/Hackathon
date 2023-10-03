@@ -1,0 +1,52 @@
+a:6:{s:1:"k";s:10:"subheading";s:1:"d";s:1243:"
+ 
+         <div style="border-radius:0% 0% 45% 44% / 0% 10% 44% 46%;background-color:#1d007e;" 
+         align="center">
+ 
+             <br>
+ 
+             <h1 class="text-light" style="font-weight:bolder;font-family:monospace;">
+    
+                Enrolled Students <i class="fa fa-users"></i>
+    
+             </h1>
+ 
+             <br>
+ 
+         </div>
+ 
+         <br>
+ 
+         <div class="create-course" align="center">
+ 
+             <div class="card shadow p-4 mb-4 bg-light" style="width:200px;">
+ 
+                 <a class="text-white" href="../courses-dashboard/index.php?id=bd5014268c666868728da3f9bbc7c0db" 
+                 style="text-decoration:none;">
+ 
+                     <button class="btn btn-md text-white" style="background-color:#1d007e;">
+ 
+                     <i class="fa fa-arrow-left"></i> Back to course
+ 
+                     </button>
+ 
+                 </a>
+ 
+             </div>
+ 
+         </div>
+         <!-- create course container-->
+ 
+         <br>
+ 
+         <div class="container">
+ 
+             <h3><span class="badge bg-dark text-light">0</span> Enrolled</h3>
+ 
+             <hr>
+ 
+             <div class="row">
+ 
+         </div>
+ 
+        ";s:1:"g";a:0:{}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-04-22 01:51:55.070939";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"m";N;s:1:"c";N;}

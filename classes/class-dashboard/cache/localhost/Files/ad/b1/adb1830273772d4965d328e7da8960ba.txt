@@ -1,0 +1,126 @@
+a:6:{s:1:"k";s:13:"class_heading";s:1:"d";s:3328:"
+        
+        <div style="border-radius:0% 0% 45% 44% / 0% 10% 44% 46%;background-color:#1d007e;" 
+        align="center">
+
+        <br> 
+
+        <div class="container">  
+
+            <div class="card shadow p-4 mb-4 bg-light" style="font-size:18px;">
+            
+                <p>
+                <span class="text-muted">Class Topic</span>
+                <br>
+                <b>Defining Technology</b></p>
+  
+                <p>
+                <span class="text-muted">About Class</span>
+                <br>
+                <b>This class enlightens students on what technology is </b></p>
+
+            </div>
+            <!-- course card -->
+
+        </div>
+        </div>
+        <!-- course heading container-->
+
+        <ul class="nav justify-content-center">
+
+            <li class="nav-item">
+
+              <a class="nav-link text-dark" href="../class-assignment/class-assignment-redirect.php?classId=8d18d27b7a0a64560c825a5b417454e9&&courseId=a77b4f0befc5bf2752419f1718507891">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;">
+
+                    Assignment 
+
+                </button>
+
+              </a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link text-dark">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;">
+
+                    2022/05/17
+
+                </button>
+
+              </a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link text-dark">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;">
+  
+                   02:08:58am
+
+                </button>
+
+              </a>
+
+            </li>
+
+        </ul>
+
+        <ul class="nav justify-content-center">
+
+            <li class="nav-item">
+
+              <a class="nav-link text-light">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;" data-bs-toggle="modal" 
+                data-bs-target="#enrolled-students">
+                   Attendance <i class="fa fa-users"></i>
+                </button>
+
+              </a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link text-light" href="../class-settings/index.php?classId=8d18d27b7a0a64560c825a5b417454e9&&courseId=a77b4f0befc5bf2752419f1718507891">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;">
+                   Settings <i class="fa fa-cog"></i>
+                </button>
+
+              </a>
+
+            </li>
+
+        </ul>
+
+        <br>
+
+        <div align="center">
+ 
+            <div class="card shadow p-4 mb-4 bg-light" style="width:200px;">
+
+            <a class="text-white" href="../../courses/courses-dashboard/index.php?id=a77b4f0befc5bf2752419f1718507891" 
+            style="text-decoration:none;">
+ 
+                <button  class="btn btn-md text-white" style="background-color:#1d007e;"
+                data-bs-toggle="modal" data-bs-target="#attendance">
+
+                   <i class="fa fa-arrow-left"></i> Back to course
+
+                </button>
+
+            </a>
+ 
+            </div>
+ 
+        </div>
+        
+        ";s:1:"g";a:0:{}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-05-17 05:03:23.381387";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"m";N;s:1:"c";N;}

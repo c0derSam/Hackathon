@@ -1,0 +1,47 @@
+a:6:{s:1:"k";s:22:"display_class_settings";s:1:"d";s:1174:"
+        
+        <div class="container">
+
+            <h3>Settings <i class="fa fa-cogs"></i> </h3>
+
+            <hr>
+
+            <ul class="list-group list-group-flush">
+
+                <li class="list-group-item" data-bs-toggle="modal" 
+                data-bs-target="#editClassInfoModal">
+
+                Edit class <i class="fa fa-edit"></i>
+
+                </li>
+
+                <li class="list-group-item" data-bs-toggle="modal" 
+                data-bs-target="#editAssignmentModal">
+
+                Edit assignment Info <i class="fa fa-edit"></i>
+
+                </li>
+
+                <li class="list-group-item" data-bs-toggle="modal" 
+                data-bs-target="#clearAttendanceModal">
+
+                Clear attendance <i class="fa fa-users"></i>
+
+                </li>
+
+                <li class="list-group-item">
+
+                <button class="btn btn-danger" data-bs-toggle="modal" 
+                data-bs-target="#deleteClass">
+    
+                   Delete class <i class="fa fa-trash"></i>
+
+                </button>
+
+                </li>
+
+            </ul>
+
+        </div>
+        
+        ";s:1:"g";a:0:{}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-05-17 05:03:39.815185";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"m";N;s:1:"c";N;}

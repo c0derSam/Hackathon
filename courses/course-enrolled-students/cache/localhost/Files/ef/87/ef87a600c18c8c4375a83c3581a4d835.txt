@@ -1,0 +1,27 @@
+a:6:{s:1:"k";s:25:"display_students_enrolled";s:1:"d";s:1003:"
+               
+               <div class="d-flex shadow p-4 mb-4 bg-light" style="width:350px">
+
+                    <div class="flex-shrink-0">
+                        <img class="rounded-circle" src="../../resources/avatars/snapp.jpg" 
+                        style="border:5px solid white;padding:1px;max-height:60px;
+                        border-radius:30px;max-width:60px;"/>
+                    </div>
+
+                    <div class="flex-grow-1 ms-3">
+
+                       <h5 style="max-width:200px;white-space:nowrap;overflow:hidden;
+                       text-overflow:ellipsis;">Oladele Oluwatomiwa John</h5>
+
+                       <p>
+                          20190110249<br>
+                          <span class="text-muted"><small><b>@soft_code</b></small></span>
+                   
+                        </p>
+
+                    </div>
+
+                </div>
+                <!-- course container flex display -->
+               
+               ";s:1:"g";a:0:{}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-04-12 08:37:12.872716";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"m";N;s:1:"c";N;}

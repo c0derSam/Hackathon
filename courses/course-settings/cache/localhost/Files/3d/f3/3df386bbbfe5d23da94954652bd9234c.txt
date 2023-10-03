@@ -1,0 +1,39 @@
+a:6:{s:1:"k";s:26:"course_settings_subheading";s:1:"d";s:971:"
+        
+        <div style="border-radius:0% 0% 45% 44% / 0% 10% 44% 46%;background-color:#1d007e;" 
+        align="center">
+
+            <br>
+
+            <h1 class="text-light" style="font-weight:bolder;font-family:monospace;">
+   
+               Course Settings <i class="fa fa-cogs"></i>
+   
+            </h1>
+
+            <br>
+
+        </div>
+
+        <br>
+
+        <div class="create-course" align="center">
+
+            <div class="card shadow p-4 mb-4 bg-light" style="width:200px;">
+
+                <a class="text-white" href="../courses-dashboard/index.php?id=a77b4f0befc5bf2752419f1718507891" style="text-decoration:none;">
+
+                    <button class="btn btn-md text-white" style="background-color:#1d007e;">
+
+                    <i class="fa fa-arrow-left"></i> Back to course
+
+                    </button>
+
+                </a>
+
+            </div>
+
+        </div>
+        <!-- container-->
+        
+        ";s:1:"g";a:0:{}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-05-17 05:03:49.955370";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"m";N;s:1:"c";N;}

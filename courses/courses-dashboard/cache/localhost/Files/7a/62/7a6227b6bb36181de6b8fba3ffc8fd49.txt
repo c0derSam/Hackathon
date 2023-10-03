@@ -1,0 +1,116 @@
+a:6:{s:1:"k";s:12:"header1_page";s:1:"d";s:3669:"
+        
+        <!doctype html>
+
+        <html lang="en">
+
+        <head>
+
+           <!-- Required meta tags -->
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+
+           <meta name = "author" content ="oladele john">
+
+           <title>Edtech Classroom | Course dashboard</title>
+ 
+           <!--Bootsrap css link-->
+           <link href="../../resources/libraries/bootstrap-library/css/bootstrap.min.css" rel="stylesheet">
+
+           <!--font awesome icons link-->
+           <link rel="stylesheet" 
+           href="../../resources/libraries/font-awesome-library/css/font-awesome.min.css">
+           
+        </head>
+
+        <body>
+
+        <script src="../../resources/libraries/bootstrap-library/js/bootstrap.bundle.min.js"></script>
+
+        <div class="edtech-logo" style="background-color:#1d007e;">
+
+            <div class="container">
+
+                <img class="rounded-circle" src="../../public/images/logo1.jpg" height="45px" width="45px" />
+ 
+                <span style="font-weight:bolder;font-size:25px;">
+                    <font color="#FFFFFF">Edtech Classroom</font>
+                </span>
+
+            </div>
+
+        </div>
+
+        <nav class="navbar sticky-top" style="background-color:#1d007e;">
+
+            <div class="container">
+
+                <ul class="nav">
+
+                    <li class="nav-item">
+
+                      <a class="nav-link text-light" href="../header/redirect-user.php">
+                        Home <i class="fa fa-home"></i>
+                      </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                      <a class="nav-link text-light" href="../../search-courses">
+                        Search <i class="fa fa-search"></i>
+                      </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                      <a class="nav-link text-light" href="../../notifications">
+                        Notify <i class="fa fa-bell"></i><span class="badge bg-light text-dark">0</span>
+                      </a>
+
+                    </li>
+
+                </ul>
+
+                <i style="font-size:25px;" class="fa fa-navicon text-light" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#dropdown" aria-controls="dropdown" aria-expanded="false" 
+                aria-label="Toggle navigation"></i>
+
+
+                <div class="collapse navbar-collapse" id="dropdown">
+
+                  <ul class="navbar-nav me-auto mb-2">
+          
+                      <li class="nav-item">
+
+                      <a class="nav-link text-light" href="../../profile">
+                      <i class="fa fa-user-circle-o"></i> Profile
+                      </a>
+
+                      <a class="nav-link text-light" href="../../saved-messages">
+                      <i class="fa fa-plus-circle"></i> Saved messages
+                      </a>
+
+                      <a class="nav-link text-light">
+                      <i class="fa fa-cogs"></i> Settings
+                      </a>
+
+                      <a class="nav-link text-light" href="../../help">
+                      <i class="fa fa-question-circle"></i> Help
+                      </a>
+
+                      <a class="nav-link text-light" href="../../logout/logout.php">
+                      <i class="fa fa-sign-out"></i> Logout
+                      </a>
+
+                      </li>
+
+                  </ul>
+
+                </div> 
+
+          </div>
+
+        </nav>
+        ";s:1:"g";a:0:{}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-05-17 05:03:45.191708";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"m";N;s:1:"c";N;}

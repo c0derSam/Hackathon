@@ -1,0 +1,46 @@
+a:6:{s:1:"k";s:17:"search_subheading";s:1:"d";s:1211:"
+        
+        <div style="border-radius:0% 0% 45% 44% / 0% 10% 44% 46%;background-color:#1d007e;" 
+         align="center">
+ 
+             <br>
+ 
+             <h1 class="text-light" style="font-weight:bolder;font-family:monospace;">
+    
+                Search Course <i class="fa fa-search"></i>
+    
+             </h1>
+ 
+             <br>
+ 
+         </div>
+ 
+         <br>
+ 
+         <div class="create-course" align="center">
+ 
+            <div class="card shadow p-4 mb-4 bg-light" style="width:200px;">
+ 
+                <form action="index.php" method="POST">
+
+                    <div class="input-group">
+
+                        <input class="form-control" type="number" name="courseId" placeholder="course id" 
+                        required style="height:40px;width:100px;">
+
+                        <button type="submit" class="input-group-text text-light" style="background-color:#1d007e;">
+                           <i class="fa fa-search"></i>
+                        </button>
+
+                    </div>
+
+                </form>
+ 
+            </div>
+ 
+         </div>
+         <!-- create course container-->
+ 
+         <br>
+        
+        ";s:1:"g";a:0:{}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-05-17 17:54:14.825569";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"m";N;s:1:"c";N;}

@@ -1,0 +1,159 @@
+a:6:{s:1:"k";s:14:"course_heading";s:1:"d";s:4064:"
+        
+        <div style="border-radius:0% 0% 45% 44% / 0% 10% 44% 46%;background-color:#1d007e;" 
+        align="center">
+
+        <br> 
+
+        <div class="container">  
+
+            <div class="card shadow p-4 mb-4 bg-light" style="font-size:18px;">
+
+
+                <p>
+                <span class="text-muted">Course Id</span>
+                <br>
+                <b>19905</b></p>
+
+                <p>
+                <span class="text-muted">Course Code</span>
+                <br>
+                <b>Edt314</b></p>
+  
+                <p>
+                <span class="text-muted">Course Title</span>
+                <br>
+                <b>Technology In Education</b></p>
+                  
+    
+                <p>
+                <span class="text-muted">About Course</span>
+                <br>
+                <b>This course enlightens students on the methods of applying technology to education</b></p>
+    
+                <p class="text-muted"> <img class="rounded-circle" src=../../resources/avatars/c2e0926fe119fe09e9b5da0b17096a28.png id="profile_pic" 
+                style="border:5px solid white;padding:5px;max-height:45px;max-width:45px;"/>
+    
+                <b>Dr-Oluwatomiwa</b>
+    
+                </p>
+
+                <div align="center">
+                  <p class="badge bg-info" style="width:300px;">Share the course by sharing<br> the course id to students</p>
+                </div>
+
+
+            </div>
+            <!-- course card -->
+
+        </div>
+        </div>
+        <!-- course heading container-->
+
+        <ul class="nav justify-content-center">
+
+            <li class="nav-item">
+
+              <a class="nav-link text-dark">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;">
+
+                    300 level students
+
+                </button>
+
+              </a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link text-dark">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;">
+
+                    2022/05/14
+
+                </button>
+
+              </a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link text-dark">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;">
+  
+                   05:10:51am
+
+                </button>
+
+              </a>
+
+            </li>
+
+        </ul>
+
+        <ul class="nav justify-content-center">
+
+            <li class="nav-item">
+
+              <a class="nav-link text-light">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;" data-bs-toggle="modal" 
+                data-bs-target="#enrolled-students">
+                   Enrolled <i class="fa fa-users"></i>
+                </button>
+
+              </a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link text-light" href="../course-settings/index.php?courseId=a77b4f0befc5bf2752419f1718507891">
+
+                <button class="btn btn-md text-light" style="background-color:#1d007e;">
+                   Settings <i class="fa fa-cog"></i>
+                </button>
+
+              </a>
+
+            </li>
+
+        </ul>
+
+        <br>
+ 
+ 
+        <div class="create-classroom" align="center">
+ 
+            <div class="card shadow p-4 mb-4 bg-light" style="width:200px;">
+
+                <a href="../create-classroom/index.php?id=a77b4f0befc5bf2752419f1718507891&&courseCode=Edt314" style="text-decoration:none;">
+ 
+                    <button class="btn btn-md text-white" style="background-color:#1d007e;">
+
+                       <b>Create classroom</b>
+
+                    </button>
+
+                </a>
+ 
+
+            </div>
+ 
+        </div>
+
+        <br>
+
+        <div class="container">
+
+           <h3>Classrooms <i class="fa fa-list-alt"></i></h3>
+
+           <hr>
+        
+
+        ";s:1:"g";a:0:{}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-05-17 05:03:45.211603";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"m";N;s:1:"c";N;}
